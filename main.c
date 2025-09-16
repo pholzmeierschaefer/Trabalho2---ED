@@ -23,9 +23,9 @@ int main()
     printf("Perimeter t2: %d\n", getPerimeter(t2));
     printf("Perimeter t3: %d\n", getPerimeter(t3));
     ///
-    printf("Area t1: %f\n", getArea(t1));
-    printf("Area t2: %f\n", getArea(t2));
-    printf("Area t3: %f\n", getArea(t3));
+    printf("Area t1: %f\n", (double)getArea(t1));
+    printf("Area t2: %f\n", (double)getArea(t2));
+    printf("Area t3: %f\n", (double)getArea(t3));
     ///
     printf("Similarity (t1,t2): %s\n", YesNo[isSimilar(t1, t2)]);
     printf("Similarity (t2,t3): %s\n", YesNo[isSimilar(t2, t3)]);
