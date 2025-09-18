@@ -1,4 +1,4 @@
-typedef struct {
+typedef struct{
     int a;
     int b;
     int c;
