@@ -32,7 +32,7 @@ int getType(trngl t)
 //
 void showTriangle(trngl t)
 {
-    printf("AB = %d, BC = %d, CA = %d\n", t.a, t.b, t.c);
+    printf("AB = %d, BC = %d, CA = %d", t.a, t.b, t.c);
 }
 //
 int getPerimeter(trngl t)
